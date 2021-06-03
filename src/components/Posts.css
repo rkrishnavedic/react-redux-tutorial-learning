@@ -1,0 +1,75 @@
+.post-container{
+    margin: 2rem;
+}
+
+.post-container .form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+.post-container .form .flex-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.form input{
+    padding: 0.3rem;
+    margin: 0.4rem;
+    width: fit-content;
+    text-decoration: none;
+    border: 1px dashed;
+}
+
+.form input:focus{
+    outline: none;
+}
+
+.form textarea{
+    padding: 0.3rem;
+    margin: 0.4rem;
+    
+    width: 70%;
+    border: 1px dashed blue;
+}
+
+button{
+    border: 1px solid rgb(78, 76, 76);
+    border-radius: 20px;
+    background: whitesmoke;
+    padding: 0.5rem;
+}
+
+button:hover{
+    background: rgb(207, 241, 247);
+}
+
+.form textarea:focus{
+    outline: none;
+}
+
+.post-container h1{
+    text-align: center;
+    margin: auto;
+    width: fit-content;
+    font-family: Source Code Pro;
+}
+.post-container .post-item{
+    background: whitesmoke;
+    border-radius: 20px;
+    padding: 0.7rem;
+    margin: 0.5rem;
+}
+
+.post-item h2{
+    font-family: Source Code Pro;
+}
+
+.post-item p{
+    font-family: IBM Plex Mono;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
